@@ -1,0 +1,22 @@
+.header{
+	padding: 25px;
+	background-color: var(--purple-100);
+	color: #fff;
+	min-height: 70px;
+	margin-bottom: 15px;
+}
+
+.wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+}
+
+.currency{
+	font-size: 18px;
+}
+
+.bold{
+	font-weight: 700;
+}

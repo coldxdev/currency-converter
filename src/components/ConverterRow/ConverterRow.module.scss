@@ -1,0 +1,27 @@
+.input,
+.select {
+	display: block;
+	font-family: inherit;
+	font-size: 20px;
+	width: 100%;
+	border-radius: 5px;
+	border: 3px solid var(--gray);
+	transition: border-color ease .2S;
+
+	&:not(:last-child) {
+		margin-bottom: 15px;
+	}
+
+	&:focus {
+		outline: none;
+		border-color: var(--purple-200)
+	}
+}
+
+.input {
+	padding: 10px 15px;
+}
+
+.select {
+	padding: 10px;
+}
