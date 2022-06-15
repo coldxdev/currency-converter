@@ -7,3 +7,4 @@ export const formatReverseRate = value => {
 export const formatRate = rate => {
    return rate > 1 ? rate.toFixed(2) : rate.toPrecision(2)
 }
+
